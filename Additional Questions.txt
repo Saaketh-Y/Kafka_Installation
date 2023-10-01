@@ -1,0 +1,18 @@
+Saaketh Yerramsetti
+
+1. How would you deploy this application in production?
+
+Although I have little experience with launching such applications in production, I would make sure it passes rigorous standards and contains detailed logs. We can also use Kubernetes. 
+
+2. What other components would you want to add to make this production ready?
+
+The main components neccessary include:
+
+a) Security: I would need to implement various security methods such as authentication to ensure that sensitive data remains protected through the data pipeline.
+b) Error Handling: Although I tried my best to ensure the pipeline runs as smooth as possible, to make it production ready I would do intense research to make sure it is robust and matches the expectations of the company. I would also reach out to more experienced professionals to guide me.
+c) Monitoring: I would try to implement services that alerts the company in case of any fraudulent data or a data leak.
+
+3. How can this application scale with a growing dataset?
+
+a) We can add more partitions to the topics 
+b) We can add more consumers 
